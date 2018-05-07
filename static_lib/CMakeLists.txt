@@ -1,0 +1,3 @@
+SET(LIBHELLO_SRC hello.cpp)
+ADD_LIBRARY(hello STATIC ${LIBHELLO_SRC})
+
